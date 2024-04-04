@@ -1,0 +1,6 @@
+#CALCULADORA DE JUROS SIMPLES (teremos Valor principal, taxa de juros e o periodo)
+valor = float (input ("Qual o valor total ? "))
+juros = float (input ("Qual a taxa de juros ? "))
+periodo = int (input ("Qual o periodo em meses ? "))
+juroSimples = (valor * juros * periodo )
+print ("Irá ter que pagar",juroSimples, "por", periodo , "meses")
