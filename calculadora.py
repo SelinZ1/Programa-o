@@ -10,5 +10,5 @@ elif operador == "*":
 elif operador == "/":
     print ("O resultado é = ", num1 / num2)
 else:
-    Error "404"
+    print ("Error 404")
 # Uma calculadora :)
