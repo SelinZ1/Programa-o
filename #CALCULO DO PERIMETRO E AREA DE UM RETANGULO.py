@@ -2,4 +2,4 @@
 altura = float (input("Qual a altura do retangulo ? "))
 largura = float (input("Qual a largura do retangulo ? "))
 perimetro = (2 * (largura + altura))
-print ("O perimetro é =", perimetro)
+print (f"O perimetro é =  {perimetro}")
