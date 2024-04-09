@@ -7,4 +7,4 @@ porcentagem = float(input("Qual a % de desconto? "))
 desconto = preco * (porcentagem / 100)
 preco_final = preco - desconto
 
-print("O preço com desconto fica R$", preco_final)
+print(f"O preço com desconto fica R${preco_final}")
