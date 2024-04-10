@@ -2,10 +2,10 @@
 nome = str (input("Qual seu nome : "))
 idade = int (input("Qual sua idade ? "))
 if (idade <= 13):
-   print (nome, "você tem", idade, "é um criança") 
+   print (f"{nome} você tem {idade}, é um criança") 
 elif (idade <= 17):
-    print (nome, "você tem", idade, "é um adolescente")
+    print (f"{nome} você tem {idade} é um adolescente")
 elif (idade <= 59):
-    print (nome, "você tem", idade, "é um adulto")
+    print (f"{nome} você tem {idade} é um adulto")
 else :
-    print (nome, "você tem", idade, "é um idoso")
+    print (f"{nome} você tem {idade} é um idoso")
