@@ -1,5 +1,5 @@
 # Conversor de unidade de medida : MI , POL , FT , CM , M , KM
-unidademedida = print('''Em qual unidade de medida está ?
+unidademedida = print('''Em qual unidade de medida está ? Selecione o numero da escolha !
 1 - Milhas (mi)
 2 - Polegadas (Pol)
 3 - Pés (ft)
